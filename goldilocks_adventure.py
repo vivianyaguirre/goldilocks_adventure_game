@@ -1,7 +1,7 @@
 # goldilocks_adventure.py 
 
 from characters import Goldilocks, PapaBear, MamaBear, BabyBear
-from locations import forest, cottage, around_cottage, living_room, bedroom
+from locations import forest, cottage, around_cottage, kitchen, living_room, bedroom
 import interactions
 
 def start_game():
