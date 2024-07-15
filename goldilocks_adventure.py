@@ -2,8 +2,8 @@
 
 from characters import Goldilocks, PapaBear, MamaBear, BabyBear
 from locations import forest, cottage, around_cottage, kitchen, living_room, bedroom
-from game_data import current_location
 import interactions
+from game_data import current_location
 
 def start_game():
 
