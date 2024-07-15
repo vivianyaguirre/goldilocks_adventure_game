@@ -16,9 +16,9 @@ def start_game():
     mama_bear = MamaBear()
     baby_bear = BabyBear()
 
-    current_location == forest: # type: ignore
+    current_location == forest
     while True: 
-        if current_location == forest: # type: ignore
+        if current_location == forest: 
             choice = input("Do you want to go north to the cottage? Enter yes or no: "). lower()
             if choice == "yes":
                 current_location = cottage
