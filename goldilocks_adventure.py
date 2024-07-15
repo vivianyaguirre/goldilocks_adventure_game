@@ -2,13 +2,12 @@
 
 from characters import Goldilocks, PapaBear, MamaBear, BabyBear
 from locations import forest, cottage, around_cottage, kitchen, living_room, bedroom
+from game_data import current_location
 import interactions
 
 def start_game():
 
     player = Goldilocks()
-    
-    current_location == forest
     
     print("Welcome to the Goldilocks Adventure Game!")
     player_name = input("Please enter your name: ")
@@ -19,7 +18,8 @@ def start_game():
     baby_bear = BabyBear()
 
    
-    while True: 
+    while True:  
+        print(current_location.get_description())
         if current_location == forest: 
             choice = input("Do you want to go north to the cottage? Enter yes or no: "). lower()
             if choice == "yes":
