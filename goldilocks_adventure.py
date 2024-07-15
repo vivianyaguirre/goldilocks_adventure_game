@@ -8,6 +8,8 @@ def start_game():
 
     player = Goldilocks()
     
+    current_location == forest
+    
     print("Welcome to the Goldilocks Adventure Game!")
     player_name = input("Please enter your name: ")
     print(f"Hello, {player_name}! You are now playing as {player.name}")
@@ -16,7 +18,7 @@ def start_game():
     mama_bear = MamaBear()
     baby_bear = BabyBear()
 
-    current_location == forest
+   
     while True: 
         if current_location == forest: 
             choice = input("Do you want to go north to the cottage? Enter yes or no: "). lower()
