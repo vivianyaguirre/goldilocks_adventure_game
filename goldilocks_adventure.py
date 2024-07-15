@@ -3,12 +3,13 @@
 from characters import Goldilocks, PapaBear, MamaBear, BabyBear
 from locations import forest, cottage, around_cottage, kitchen, living_room, bedroom
 import interactions
-from .game_data import current_location
+from game_data import current_location
 
 def start_game():
 
     player = Goldilocks()
     print(f"Current location: {current_location}")
+
     # print("Welcome to the Goldilocks Adventure Game!")
     # player_name = input("Please enter your name: ")
     # print(f"Hello, {player_name}! You are now playing as {player.name}")
@@ -86,4 +87,5 @@ def start_game():
     #             current_location = forest
     #         else:
     #             print("You stay in the bedroom.")
-
+if __name__ == "__main__":
+    start_game()
