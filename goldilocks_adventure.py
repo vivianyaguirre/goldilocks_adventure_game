@@ -8,7 +8,6 @@ import interactions
 def start_game():
 
     player = Goldilocks()
-    current_location = forest
     
 
     print("Welcome to the Goldilocks Adventure Game!")
@@ -18,10 +17,11 @@ def start_game():
     papa_bear = PapaBear()
     mama_bear = MamaBear()
     baby_bear = BabyBear()
-    print(f"Current location: {current_location.name}")
+    
    
-while True:
-        print(current_location.get_directions)
+    while True:
+        current_location = forest
+        print(current_location.name)
 
         if current_location == forest:
             choice = input("Do you want to go north to the cottage? (yes/no): ").lower()
