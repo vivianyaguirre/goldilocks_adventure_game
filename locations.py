@@ -10,7 +10,7 @@ class Location:
 
 
     def add_item(self, item):
-        self.items.appemd(item)
+        self.items.append(item)
 
     def add_action(self, action):
         self.actions.append(action)
